@@ -20,7 +20,7 @@ export function Header() {
 
         {/* links  */}
         <Links />
-        <a href="" target="_blank" className="bg-shark rounded-full py-4 w-4/5 mx-auto font-bold text-zinc-100 flex items-center justify-center gap-2 hover:bg-shark/80">
+        <a href="mailto:nilloferreiira@gmail.com" target="_blank" className="bg-shark rounded-full py-4 w-4/5 mx-auto font-bold text-zinc-100 flex items-center justify-center gap-2 hover:bg-shark/80">
           Contact me <EnvelopeSimple size={20} weight="bold"/>
         </a>
       </div>
