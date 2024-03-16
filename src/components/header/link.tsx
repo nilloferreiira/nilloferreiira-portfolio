@@ -9,7 +9,7 @@ export function Links() {
           className="ring-1 ring-zinc-100 rounded-full size-12 p-6 flex items-center justify-center hover:shadow-md hover:shadow-zinc-50/40"
         >
           <span>
-            <GithubLogo size={18} color="white" weight="bold" />
+            <GithubLogo size={24} color="white" weight="bold" />
           </span>
         </a>
         <a
@@ -18,7 +18,7 @@ export function Links() {
           className="ring-1 ring-zinc-100 rounded-full size-12 p-6 flex items-center justify-center hover:shadow-md hover:shadow-zinc-50/40"
         >
           <span>
-            <LinkedinLogo size={18} color="white" weight="bold" />
+            <LinkedinLogo size={24} color="white" weight="bold" />
           </span>
         </a>
         <a
@@ -26,7 +26,7 @@ export function Links() {
           className="ring-1 ring-zinc-100 rounded-full size-12 p-6 flex items-center justify-center hover:shadow-md hover:shadow-zinc-50/40"
         >
           <span>
-            <FileText size={18} color="white" weight="bold" />
+            <FileText size={24} color="white" weight="bold" />
           </span>
         </a>
       </div>

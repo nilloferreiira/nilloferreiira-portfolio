@@ -3,7 +3,7 @@ import { Links } from "./link";
 
 export function Header() {
   return (
-    <header className="w-4/5 flex p-6">
+    <header className="w-full lg:w-4/5 lg:p-6 flex flex-col lg:flex-row items-center justify-center lg:items-start lg:justify-start">
       <img
         src="src/assets/perfil.png"
         alt="foto de perfil"
@@ -14,8 +14,8 @@ export function Header() {
       <div className="flex flex-col gap-5 justify-center">
         {/* text content  */}
         <div className="p-10">
-          <h1 className="text-5xl text-zinc-100">Hi I'm Danillo &#128075;</h1>
-          <h2 className="text-4xl text-text-secondary">Software Developer</h2>
+          <h1 className="text-4xl lg:text-5xl text-zinc-100">Hi I'm Danillo &#128075;</h1>
+          <h2 className="text-2xl lg:text-4xl text-text-secondary">Software Developer</h2>
         </div>
 
         {/* links  */}
