@@ -1,7 +1,6 @@
 export function ExperienceContainer() {
     return (
-        <div className="w-screen flex flex-col lg:flex-row lg:items-center lg:justify-between mx-auto gap-10">
-           
+        <div className="w-full flex flex-col lg:flex-row lg:items-center lg:justify-between mx-auto gap-10">
             <div className="w-full lg:w-96 space-y-5 lg:space-y-10 ">
               <h2 className="text-zinc-100 font-bold text-3xl lg:text-4xl">Experience</h2>
               <p className="text-text-secondary text-2xl">
