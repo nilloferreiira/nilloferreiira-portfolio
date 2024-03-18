@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="w-full lg:w-4/5 lg:p-6 flex flex-col lg:flex-row items-center justify-center lg:items-start lg:justify-start">
       <img
-        src="src/assets/perfil.png"
+        src="https://github.com/nilloferreiira.png"
         alt="foto de perfil"
         className="size-72 ring-1 rounded-full ring-zinc-200"
       />
