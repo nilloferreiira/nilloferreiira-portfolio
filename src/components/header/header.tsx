@@ -11,18 +11,30 @@ export function Header() {
       />
 
       {/* second content  */}
-      <div className="flex flex-col gap-5 justify-center">
+      <div className="flex flex-col gap-5 items-center md:items-start justify-center">
         {/* text content  */}
-        <div className="p-10">
-          <h1 className="text-4xl lg:text-5xl text-zinc-100">Hi I'm Danillo &#128075;</h1>
-          <h2 className="text-2xl lg:text-4xl text-text-secondary">Software Developer</h2>
+        <div className="p-8">
+          <h1 className="text-4xl lg:text-5xl text-zinc-100 font-semibold">
+            Hi I'm Danillo
+            <span>&#128075;</span> 
+          </h1>
+          <div className="p-2">
+            <h2 className="text-2xl lg:text-4xl text-text-secondary tracking-widest whitespace-nowrap	overflow-hidden border-r-2 border-text-secondary animate-typing">
+              Software Developer
+            </h2>
+          </div>
         </div>
 
         {/* links  */}
+        <div className="w-96 space-y-5">
         <Links />
-        <a href="mailto:nilloferreiira@gmail.com" target="_blank" className="bg-shark rounded-full py-4 w-4/5 mx-auto font-bold text-zinc-100 flex items-center justify-center gap-2 hover:bg-shark/80">
-          Contact me <EnvelopeSimple size={20} weight="bold"/>
+        <a
+          href="mailto:nilloferreiira@gmail.com"
+          className="bg-shark rounded-full py-4  w-4/5 mx-auto font-bold text-zinc-100 flex items-center justify-center gap-2 hover:bg-shark/80"
+        >
+          Contact me <EnvelopeSimple size={20} weight="bold" />
         </a>
+        </div>
       </div>
     </header>
   );

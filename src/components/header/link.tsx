@@ -2,7 +2,7 @@ import { GithubLogo, LinkedinLogo, FileText } from "@phosphor-icons/react";
 
 export function Links() {
     return (
-        <div className="px-10 flex items-center justify-between">
+        <div className="px-12 flex items-center justify-between">
         <a
           href="https://github.com/nilloferreiira"
           target="_blank"
