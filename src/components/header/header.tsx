@@ -19,7 +19,16 @@ export function Header() {
             <span>&#128075;</span> 
           </h1>
           <div className="p-2">
-            <h2 className="text-2xl lg:text-4xl text-text-secondary tracking-widest whitespace-nowrap	overflow-hidden border-r-2 border-text-secondary animate-typing">
+            <h2 
+            className={`
+                text-2xl lg:text-4xl 
+                text-text-secondary 
+                tracking-widest whitespace-nowrap	
+                overflow-hidden 
+                border-r-2 border-text-secondary 
+                animate-[typing_6s_steps(18)_infinite] 
+                animete-[blink_0.5s_step-end_infinite_alternate]
+                `}>
               Software Developer
             </h2>
           </div>
