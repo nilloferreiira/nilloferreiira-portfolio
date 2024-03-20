@@ -4,10 +4,13 @@ import { ExperienceContainer } from "./components/main/experience/experience-con
 import { ProjectContainer } from "./components/main/projects/project-container";
 import { SwitchLanguage } from "./components/switch-language/switch";
 
-export default function App() {
-  const LanguageContext = createContext({});
+type LanguageContextProps = {
+  language: boolean;
+}
 
-  // const useLanguage = () => useContext(LanguageContext);
+export const LanguageContext = createContext<LanguageContextProps>({language: false});
+
+export default function App() {
 
   const [language, setLanguage] = useState<boolean>(false);
 
@@ -16,8 +19,8 @@ export default function App() {
   }
 
   return (
-    <LanguageContext.Provider value={language}>
-      <div className="px-4 py-6 lg:p-24 mx-auto w-full space-y-20">
+    <LanguageContext.Provider value={{language}}>
+      <div className="px-4 py-6 lg:p-24 mx-auto w-full space-y-20 overflow-x-hidden">
         <SwitchLanguage toggleLanguage={toggleLanguage} value={language} />
         <Header />
         <main className="lg:p-10 w-full flex flex-col items-start justify-center gap-20 ">

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @media (max-width: 768px) {
-.-sm {
-    @apply w-[90%]
+.sm-mx-auto {
+    @apply mx-auto
   }  
 }
