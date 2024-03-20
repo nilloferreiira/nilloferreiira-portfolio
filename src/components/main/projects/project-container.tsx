@@ -23,7 +23,8 @@ export function ProjectContainer() {
             project={{
               id: project.project.id,
               title: project.project.title,
-              description: project.project.description,
+              descriptionBR: project.project.descriptionBR,
+              descriptionUS: project.project.descriptionUS,
               imgSrc: project.project.imgSrc,
               url: project.project.url,
             }}
